@@ -6,8 +6,7 @@ var stack = [];
 var j = 0;
 
 var highlightColor = [255, 0, 0, 100];
-var showColor = [getRandomInt(0, 255), getRandomInt(0, 255), getRandomInt(0, 255), 255];
-//var showColor = [95, 0, 160, 255];
+var showColor;
 
 // Function to setup the canvas
 function setup() {
@@ -75,6 +74,7 @@ function removeWalls(a, b) {
 
 // function to initialize the grid and new color
 function init() {
+    showColor = [getRandomInt(0, 255), getRandomInt(0, 255), getRandomInt(0, 255), 255];
     cols = floor(width / w);
     rows = floor(height / w);
 
