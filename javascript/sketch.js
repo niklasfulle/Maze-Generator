@@ -6,8 +6,8 @@ var stack = [];
 var j = 0;
 
 var highlightColor = [255, 0, 0, 100];
-//var showColor = [getRandomInt(0, 255), getRandomInt(0, 255), getRandomInt(0, 255), 255];
-var showColor = [95, 0, 160, 255];
+var showColor = [getRandomInt(0, 255), getRandomInt(0, 255), getRandomInt(0, 255), 255];
+//var showColor = [95, 0, 160, 255];
 
 // Function to setup the canvas
 function setup() {
