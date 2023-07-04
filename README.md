@@ -19,7 +19,7 @@ The depth-first search algorithm of maze generation is frequently implemented us
     2. Remove the wall between the current cell and the chosen cell
     3. Invoke the routine recursively for the chosen cell
 
-which is invoked once for any initial cell in the area.
+which is invoked once for any initial cell in the area.<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search)
 
 ## Dependencies
